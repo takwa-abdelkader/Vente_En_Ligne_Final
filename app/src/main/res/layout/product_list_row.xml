@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="49dp"
+        android:layout_height="24dp"
+        android:text="Reference :     "
+        />
+
+    <TextView
+        android:id="@+id/TV_reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nb_refercence"
+        android:layout_marginLeft="35dp"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prix : "
+         />
+
+    <TextView
+        android:id="@+id/TV_prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:layout_marginLeft="50dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+
+       />
+
+    <TextView
+        android:id="@+id/TV_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="50dp"
+       />
+
+    <Button
+        android:id="@+id/ajout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blueApp"
+        android:textColor="#FFFFFF"
+        android:text="Ajouter Au panier"
+        android:layout_marginLeft="100dp"
+         />
+    </LinearLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

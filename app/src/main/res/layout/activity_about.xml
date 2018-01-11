@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.takwa.test_vente.Activities.AboutActivity">
+
+    <ImageView
+        android:id="@+id/logoimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/logotv"
+        android:layout_width="114dp"
+        android:layout_height="31dp"
+        android:text="ElectroVente"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/composantimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/photo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="59dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/composanttv"
+        android:layout_width="351dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="ElectroVente est une application android qui nous facilite la recherche et l'achat des  composants electroniques en proposant une varité  des materiels embarquées en tunisie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/localeimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/local"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="474dp"
+        tools:ignore="MissingConstraints">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/localetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tunis"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="476dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/mailimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/msg"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="MissingConstraints">
+    </ImageView>
+    <TextView
+        android:id="@+id/mailtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electro_vente@gmail.com"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/phoneimg"
+        android:layout_width="26dp"
+        android:layout_height="22dp"
+        android:src="@drawable/call"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints">
+    </ImageView>
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call 95201478"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

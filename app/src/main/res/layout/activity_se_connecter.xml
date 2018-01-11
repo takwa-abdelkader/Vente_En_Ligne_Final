@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Connecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/inscrire"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:text="Se connecter"
+        android:textColor="#FF8000"
+        android:textSize="25dp"
+        android:layout_alignRight="@+id/inscrire" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pass"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="77dp"
+        android:layout_marginStart="14dp"
+        android:text="Email"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp" />
+
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:layout_below="@+id/Connecter"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/adresse"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="27dp"
+        android:text="Mot de passe"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/adresse" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/adresse"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignLeft="@+id/password" />
+
+    <Button
+        android:id="@+id/inscrire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/se_connecter"
+        android:layout_marginBottom="22dp"
+        android:layout_toEndOf="@+id/password"
+        android:background="#848484"
+        android:text="S'inscrire"
+        android:onClick="inscrire"
+        android:layout_toRightOf="@+id/password" />
+
+    <Button
+        android:id="@+id/se_connecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inscrire"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/inscrire"
+        android:layout_marginBottom="29dp"
+        android:background="#848484"
+        android:onClick="connecter"
+        android:text="Se conneter" />
+
+
+</RelativeLayout>
